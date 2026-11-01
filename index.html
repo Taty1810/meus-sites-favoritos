@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meus sites favoritos</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            color: #333;
+            margin: 0;
+            padding: 20px;
+        }
+        header {
+            text-align: center;
+            padding: 10px 0 30px 0;
+        }
+        h1 {
+            color: #2c3e50;
+        }
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 25px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        .card {
+            background-color: #ffffff;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            width: 220px;
+            padding: 15px;
+            text-align: center;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+        .card h3 {
+            margin-top: 0;
+            margin-bottom: 12px;
+            font-size: 1.1rem;
+            color: #34495e;
+        }
+        .card img {
+            width: 100%;
+            height: 120px;
+            object-fit: contain;
+            border-radius: 4px;
+            margin-bottom: 12px;
+        }
+        .card a {
+            display: inline-block;
+            color: #3498db;
+            text-decoration: none;
+            font-weight: bold;
+            word-break: break-all;
+        }
+        .card a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Meus sites favoritos: Seu Nome</h1>
+    </header>
+
+    <div class="container">
+        
+        <!-- Site 1 -->
+        <div class="card">
+            <h3>Google</h3>
+            <img src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x91dp.png" alt="Google Logo">
+            <a href="https://www.google.com" target="_blank">Acessar Google</a>
+        </div>
+
+        <!-- Site 2 -->
+        <div class="card">
+            <h3>YouTube</h3>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/b/b8/YouTube_Logo_2017.svg" alt="YouTube Logo">
+            <a href="https://www.youtube.com" target="_blank">Acessar YouTube</a>
+        </div>
+
+        <!-- Site 3 -->
+        <div class="card">
+            <h3>GitHub</h3>
+            <img src="https://github.githubassets.com/assets/GitHub-Mark-ea2971500120.png" alt="GitHub Logo">
+            <a href="https://www.github.com" target="_blank">Acessar GitHub</a>
+        </div>
+
+        <!-- Site 4 -->
+        <div class="card">
+            <h3>Wikipedia</h3>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/6/63/Wikipedia-logo-v2-en.svg" alt="Wikipedia Logo">
+            <a href="https://www.wikipedia.org" target="_blank">Acessar Wikipedia</a>
+        </div>
+
+        <!-- Site 5 -->
+        <div class="card">
+            <h3>Stack Overflow</h3>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/0/02/Stack_Overflow_logo.svg" alt="Stack Overflow Logo">
+            <a href="https://stackoverflow.com" target="_blank">Acessar Stack Overflow</a>
+        </div>
+
+    </div>
+
+</body>
+</html>
